@@ -6,8 +6,8 @@ import { PapayaCopy } from './content/content'
 function App() {
 
   return (
-    <>
-      <div className="container flex h-screen items-center justify-center bg-gray-800 text-2xl">
+    <div className='flex h-screen items-center justify-center bg-gray-800'>
+      <div className="container flex flex-col items-center">
         <Card
           imagePath={CardImg}
           altText='Food Item'
@@ -18,7 +18,7 @@ function App() {
           desc={PapayaCopy}
           price="₹100" />
       </div>
-    </>
+    </div>
   )
 }
 
